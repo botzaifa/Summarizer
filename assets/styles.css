@@ -1,0 +1,126 @@
+/* General Page Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;  /* Dark gray background */
+    color: #ffffff;  /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;  /* White text */
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Description */
+.description {
+    font-size: 18px;
+    color: #bbbbbb;  /* Lighter gray for description text */
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+/* Input Text Area */
+.stTextArea textarea {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #333333;  /* Dark gray border */
+    border-radius: 8px;
+    background-color: #1e1e1e;  /* Darker background for text area */
+    color: #ffffff;  /* White text in textarea */
+    box-sizing: border-box;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.stTextArea textarea:focus {
+    border-color: #ffffff;  /* White border on focus */
+}
+
+/* Summary Box */
+.summary-box {
+    background-color: #1e1e1e;  /* Dark background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Darker shadow */
+    border: 1px solid #333333;  /* Dark gray border */
+    color: #ffffff;  /* White text */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.summary-box p {
+    margin: 0;
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #333333;  /* Dark gray button */
+    color: #ffffff;  /* White text */
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stButton button:hover {
+    background-color: #555555;  /* Lighter gray on hover */
+}
+
+/* Radio Buttons */
+.stRadio input[type="radio"] {
+    margin-right: 10px;
+}
+
+.stRadio label {
+    font-size: 16px;
+    color: #ffffff;  /* White text */
+}
+
+/* Columns Layout */
+.stColumns {
+    margin-top: 30px;
+}
+
+.stColumns .stColumn {
+    padding: 0 15px;
+}
+
+/* Spinner */
+.stSpinner {
+    background-color: rgba(0, 0, 0, 0.7);  /* Dark spinner background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Dark shadow */
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .stColumns {
+        flex-direction: column;
+    }
+
+    .stColumn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
