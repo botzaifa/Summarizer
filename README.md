@@ -1,6 +1,6 @@
-# Text Summarizer - Streamlit App
+# Text Summarizer
 
-This is a **Text Summarizer** web application built using **Streamlit**. It takes any given text and summarizes it for you in a more concise form. The app uses natural language processing (NLP) techniques to understand the context and key points of the text and present a summary.
+This is a **Text Summarizer** web application. It takes any given text and summarizes it for you in a more concise form. The app uses natural language processing (NLP) techniques to understand the context and key points of the text and present a summary.
 
 You can access the live app at [**Text Summarizer Demo**](https://summarizer2.streamlit.app/).
 
