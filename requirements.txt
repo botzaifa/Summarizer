@@ -1,25 +1,25 @@
 # Core libraries
-streamlit
+streamlit>=1.45.0
 
 # Transformers and model backend
-transformers==4.40.1
-torch==2.1.2  # or latest stable, adjust as needed
+transformers>=4.40.1
+torch>=2.3.0
 
 # NLP preprocessing
-nltk==3.8.1
-spacy==3.7.4
+nltk>=3.8.1
+spacy>=3.7.4
 
 # Optional: model downloading and tokenization optimizations
-sentencepiece==0.1.99
+sentencepiece>=0.1.99
 
 # For YAML config handling
-pyyaml==6.0.1
+pyyaml>=6.0.1
 
 # Optional but recommended for improved performance
-accelerate==0.30.1
+accelerate>=0.30.1
 
 # For running in environments with various encodings
-unicodedata2==15.1.0
+unicodedata2>=15.1.0
 
 # Xet storage
-hf_xet
+hf_xet>=0.1.0
